@@ -3,12 +3,13 @@
 echo "Masukin Nama Lo : ";
 $name = trim(fgets(STDIN));
 if($name == 'rafli'){
-	echo "Nama Yang Bagus!";
+	echo "Nama Yang Bagus! \n";
 }if($name == 'Rafli'){
-	echo "Nama Yang Bagus!";
+	echo "Nama Yang Bagus! \n";
 }else{
-	echo "Buriq Bat Anjir";
+	echo "Buriq Bat Anjir \n";
 }
+echo "\n";
 sleep(1);
 echo "L";
 sleep(1);
@@ -41,7 +42,7 @@ $pilihan = trim(fgets(STDIN));
 if ($pilihan == '1') {
 	echo "Paste Disini : ";
 	$hash = trim(fgets(STDIN));
-	echo "Pass nya : ".md5($hash)."\n";
+	echo "Hasilnya : ".md5($hash)."\n";
 }if ($pilihan == '2') {
 	echo "Paste Text Encryptnya : ";
 	$pass = trim(fgets(STDIN));
